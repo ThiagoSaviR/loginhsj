@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ffff;
+}
+.cadastrese{
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #58af9cff;
+    justify-content: space-between; 
+    align-items: center;
+  
+
+}
+.cadastrese img{
+    width: 7rem;
+    margin: 0.5rem;
+}
+.btn-casdastrese{
+    margin: 1rem;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #ffff;
+    padding: 1rem 1.5rem;
+    border: 3px solid #ffff;
+    border-radius: 15px;
+    background-color: #58af9cff;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:#ffff;
+    color:#58af9cff;
+}
+
+.login{
+    display:flex;
+    flex-direction: column;;
+    width: 100%;
+    margin-top: 8rem;;
+    color:#58af9cff;
+}
+.login h1{
+    font-size: 3rem;
+}
+.input{
+    margin-top: 3rem;
+}
+.user-password{
+    width: 70%;
+    text-align: left;
+    background-color: #ecf0f1ff;
+    padding: 1rem 1rem;
+    margin: 1rem;
+}
+
+.btn-login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 2.5rem;
+}
+.esqueci{
+    margin-left:1rem;
+    color:#58af9cff;
+}
+.entrar{
+    padding: 1rem 5rem;
+}
+.entrar:hover{
+    border: 3px solid #58af9cff;
+}
