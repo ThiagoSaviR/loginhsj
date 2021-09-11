@@ -5,26 +5,32 @@
     text-decoration: none;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color:#58af9cff;
 }
 body{
-    background-color: #ffff;
-}
-.cadastrese{
     display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    min-width: 480px;
+}
+.logo-barra,.barra{
     width: 100%;
-    height: 7rem;
-    background-color: #58af9cff;
-    justify-content: space-between; 
+    display: flex;
     align-items: center;
-  
+    background-color: #58af9cff;
+    justify-content: flex-start;
 
 }
-.cadastrese img{
-    width: 7rem;
-    margin: 0.5rem;
+.logoC{
+   width: 6rem;
+    margin: 1rem;
+}
+.logoH{
+    width: 3rem;
 }
 .btn-casdastrese{
-    margin: 1rem;
+    margin-left: 3rem;
+    width: 100%;
 }
 .btn{
     font-size: 1rem;
@@ -37,44 +43,103 @@ body{
     transition: 0.5s;
 }
 .btn:hover{
+    color:#58af9cff;
     background-color:#ffff;
-    color:#58af9cff;
 }
-
 .login{
+    font-size: 2rem;
     display:flex;
-    flex-direction: column;;
+    flex-direction: column;
     width: 100%;
-    margin-top: 8rem;;
-    color:#58af9cff;
+    margin-top: 5rem;;
+    align-items: center;
 }
-.login h1{
-    font-size: 3rem;
+.logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+.logo img{
+    width: 8rem;
+}
+.logo h1{
+    font-size: 1.5rem;
 }
 .input{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 .user-password{
     width: 70%;
     text-align: left;
     background-color: #ecf0f1ff;
     padding: 1rem 1rem;
-    margin: 1rem;
+    margin: 15px;
+    border-radius: 0.5rem;
 }
-
 .btn-login{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
-    margin: 0 2.5rem;
+    
 }
 .esqueci{
-    margin-left:1rem;
-    color:#58af9cff;
+    font-size: 1rem;
+    margin:1rem;
 }
 .entrar{
-    padding: 1rem 5rem;
+    width: 19rem;
+
 }
 .entrar:hover{
+    color: #58af9cff;
     border: 3px solid #58af9cff;
+}
+
+@media (min-width: 1024px){
+
+    body{
+        flex-direction: row;
+
+    }
+    .barra{
+        width: 47vw;
+        flex-direction: column;
+        margin: 1rem; 
+    }
+    .logo-barra{
+        display: flex;
+        flex-direction: row;
+        margin-top: 7rem;
+        justify-content: center;
+        margin-bottom: 7rem;
+    }
+    .logoC{
+       width: 11rem;
+        margin: 0;
+        margin-top: 12rem;
+    }
+    .logoH{
+        width: 6rem;
+        margin-top: 12rem;
+    }
+    .btn-casdastrese{
+        margin-left: 0;
+        margin-bottom: 22rem;
+       
+    }
+    .login{
+        margin-top: 15rem;
+        width: 45vw;
+    }
+    .logo{
+        width: 50vw;
+        margin-top: 0;
+    }
+    .login h1{
+        font-size: 2rem;
+    }
 }
