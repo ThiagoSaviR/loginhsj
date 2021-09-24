@@ -6,13 +6,14 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color:#58af9cff;
+    outline: none;
 }
 body{
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #ffff;
+    background-color: #f3f3f3;
     min-width: 360px;
   
 }
@@ -22,7 +23,6 @@ body{
     align-items: center;
     background-color: #58af9cff;
     justify-content: flex-start;
-
 }
 .logo-barra{
     width: 50%;
@@ -39,8 +39,9 @@ body{
     width: 3rem;
 }
 .btn-casdastrese{
-    width: 50%;
+    width: 60%;
 }
+
 .btn{
     font-size: 1rem;
     font-weight: 900;
@@ -53,7 +54,7 @@ body{
 }
 .btn:hover{
     color:#58af9cff;
-    background-color:#ffff;
+    background-color:#f3f3f3;
 }
 .login{
     width: 100%;
@@ -118,8 +119,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center
-   
+    justify-content: center 
 }
 .logoEs img{
     width: 8rem;
@@ -128,6 +128,61 @@ body{
     width: 100%;
 }
 
+.container-cadastro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #58af9cff;
+}
+.formulario{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    border: 10px double #58af9cff;
+    max-width: 900px ;
+}
+.formulario img{
+    width: 8rem;
+}
+.formulario h1{
+    font-size: 2rem;
+}
+.formulario p{
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    align-self:center;
+}
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.dados-cadastro{
+    width: 70%;
+    text-align: left;
+    background-color: #ecf0f1ff;
+    padding: 1rem 1rem;
+    margin: 8px;
+    border-radius: 0.5rem;
+}
+.btn-cadastro{
+    width: 70%;
+    align-self: center;
+}
+.btn-cadastro:hover{
+    border: 3px solid #58af9cff;
+}
+input:focus{
+    border: 3px solid #58af9cff;
+}
 
 @media (min-width: 1024px){
 
