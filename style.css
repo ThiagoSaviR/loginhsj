@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     background-color: #f3f3f3;
     min-width: 360px;
+    min-height: 640px;
 }
 
  /*MOBILE FIRST*/
@@ -186,7 +187,7 @@ body{
     border: 3px solid #58af9cff;
 }
 input:focus{
-    border: 3px solid #58af9cff;
+    border: 2px solid #58af9cff;
 }
 
     /*MEDIA QUERIES*/
